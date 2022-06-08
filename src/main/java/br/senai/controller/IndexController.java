@@ -16,4 +16,9 @@ public class IndexController {
         return "sobre";
     }
 
+    @GetMapping("/conta/signup")
+    public String signup() {return "signup";}
+
+    @GetMapping("/conta/signin")
+    public String signin() {return "signin";}
 }
